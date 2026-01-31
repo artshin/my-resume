@@ -186,7 +186,7 @@ export function renderPortfolioSkills(): string {
   const maxSkillCount = getMaxSkillCount(categories);
 
   return `
-    <section id="skills" class="portfolio-section bg-gray-50 dark:bg-gray-900/50">
+    <section id="skills" class="portfolio-section">
       <div class="max-w-4xl mx-auto w-full">
         <div class="text-center mb-8">
           <h2 class="section-title gradient-text">Skills & Expertise</h2>
