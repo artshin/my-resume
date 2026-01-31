@@ -27,20 +27,16 @@ const icons = {
 
 export function renderPortfolioAboutYou(): string {
   return `
-    <section id="about-you" class="portfolio-section bg-gray-900 dark:bg-black relative overflow-hidden">
-      <!-- Background effect -->
-      <div class="absolute inset-0 opacity-20">
-        <div class="absolute inset-0" style="background-image: radial-gradient(circle at 25% 25%, rgba(59, 130, 246, 0.3) 0%, transparent 50%), radial-gradient(circle at 75% 75%, rgba(236, 72, 153, 0.3) 0%, transparent 50%);"></div>
-      </div>
+    <section id="about-you" class="portfolio-section relative overflow-hidden">
 
       <div class="relative z-10 max-w-4xl mx-auto w-full text-center">
         <!-- Header -->
         <div class="mb-12">
-          <p class="text-sm uppercase tracking-widest text-gray-400 mb-4">You wanted to know about me...</p>
-          <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-white mb-4">
+          <p class="text-sm uppercase tracking-widest text-[var(--color-text-muted)] mb-4">You wanted to know about me...</p>
+          <h2 class="text-3xl sm:text-4xl md:text-5xl font-bold text-[var(--color-text)] mb-4">
             This is what I know about <span class="gradient-text">you</span>
           </h2>
-          <p class="text-gray-400 max-w-xl mx-auto">
+          <p class="text-[var(--color-text-muted)] max-w-xl mx-auto">
             A friendly reminder about your digital footprint
           </p>
         </div>
@@ -49,7 +45,7 @@ export function renderPortfolioAboutYou(): string {
         <div id="visitor-data" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mb-12">
           <!-- Loading state -->
           <div class="col-span-full flex justify-center py-12">
-            <div class="flex items-center gap-3 text-gray-400">
+            <div class="flex items-center gap-3 text-[var(--color-text-muted)]">
               <svg class="w-5 h-5 animate-spin" fill="none" viewBox="0 0 24 24">
                 <circle class="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" stroke-width="4"></circle>
                 <path class="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
@@ -65,7 +61,7 @@ export function renderPortfolioAboutYou(): string {
         </div>
 
         <!-- Footer note -->
-        <p class="text-xs text-gray-500 mt-8">
+        <p class="text-xs text-[var(--color-text-muted)] mt-8">
           This data is publicly available to any website you visit. Stay safe online.
         </p>
       </div>
@@ -76,15 +72,15 @@ export function renderPortfolioAboutYou(): string {
 function renderDataCard(icon: string, label: string, value: string, highlight: boolean = false): string {
   const highlightClass = highlight
     ? 'border-green-500/30 bg-green-500/5'
-    : 'border-gray-700 bg-gray-800/50';
+    : '';
 
   return `
-    <div class="glass-card p-4 sm:p-6 text-left border ${highlightClass}">
+    <div class="glass-card p-4 sm:p-6 text-left ${highlightClass}">
       <div class="flex items-center gap-3 mb-2">
-        <span class="text-gray-400">${icon}</span>
-        <span class="text-sm text-gray-400 uppercase tracking-wider">${label}</span>
+        <span class="text-[var(--color-text-muted)]">${icon}</span>
+        <span class="text-sm text-[var(--color-text-muted)] uppercase tracking-wider">${label}</span>
       </div>
-      <p class="text-lg sm:text-xl font-medium text-white truncate" title="${value}">
+      <p class="text-lg sm:text-xl font-medium text-[var(--color-text)] truncate" title="${value}">
         ${value}
       </p>
     </div>
@@ -95,10 +91,10 @@ function renderVpnRecommendation(isProtected: boolean): string {
   if (isProtected) {
     return `
       <div class="inline-flex items-center gap-3 px-6 py-4 rounded-2xl bg-green-500/10 border border-green-500/30">
-        <span class="text-green-400">${icons.shield}</span>
+        <span class="text-green-500 dark:text-green-400">${icons.shield}</span>
         <div class="text-left">
-          <p class="font-medium text-green-400">Your connection appears protected</p>
-          <p class="text-sm text-gray-400">You're likely using a VPN or proxy</p>
+          <p class="font-medium text-green-600 dark:text-green-400">Your connection appears protected</p>
+          <p class="text-sm text-[var(--color-text-muted)]">You're likely using a VPN or proxy</p>
         </div>
       </div>
     `;
@@ -107,18 +103,18 @@ function renderVpnRecommendation(isProtected: boolean): string {
   return `
     <div class="max-w-xl mx-auto">
       <div class="flex items-start gap-4 p-6 rounded-2xl bg-amber-500/10 border border-amber-500/30 text-left mb-6">
-        <span class="text-amber-400 flex-shrink-0 mt-1">${icons.shieldOff}</span>
+        <span class="text-amber-500 dark:text-amber-400 flex-shrink-0 mt-1">${icons.shieldOff}</span>
         <div>
-          <p class="font-medium text-amber-400 mb-2">Your real IP is visible</p>
-          <p class="text-sm text-gray-300 mb-4">
+          <p class="font-medium text-amber-600 dark:text-amber-400 mb-2">Your real IP is visible</p>
+          <p class="text-sm text-[var(--color-text-secondary)] mb-4">
             Consider using a VPN to protect your privacy and hide your location from websites, advertisers, and potential bad actors.
           </p>
-          <div class="text-sm text-gray-400">
-            <p class="font-medium text-gray-300 mb-2">Quick VPN options:</p>
+          <div class="text-sm text-[var(--color-text-muted)]">
+            <p class="font-medium text-[var(--color-text-secondary)] mb-2">Quick VPN options:</p>
             <ul class="space-y-1">
-              <li>• <span class="text-white">Mullvad</span> — Privacy-focused, no account needed</li>
-              <li>• <span class="text-white">ProtonVPN</span> — Free tier available, Swiss privacy</li>
-              <li>• <span class="text-white">Tailscale</span> — Great for developers, WireGuard-based</li>
+              <li>• <span class="text-[var(--color-text)]">Mullvad</span> — Privacy-focused, no account needed</li>
+              <li>• <span class="text-[var(--color-text)]">ProtonVPN</span> — Free tier available, Swiss privacy</li>
+              <li>• <span class="text-[var(--color-text)]">Tailscale</span> — Great for developers, WireGuard-based</li>
             </ul>
           </div>
         </div>
@@ -188,8 +184,8 @@ export async function initAboutYou(): Promise<void> {
   if (!geoData) {
     container.innerHTML = `
       <div class="col-span-full text-center py-8">
-        <p class="text-gray-400">Unable to fetch your connection data</p>
-        <p class="text-sm text-gray-500 mt-2">You might be blocking tracking requests (good for you!)</p>
+        <p class="text-[var(--color-text-muted)]">Unable to fetch your connection data</p>
+        <p class="text-sm text-[var(--color-text-muted)] opacity-75 mt-2">You might be blocking tracking requests (good for you!)</p>
       </div>
     `;
     return;

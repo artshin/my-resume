@@ -12,6 +12,7 @@ import { renderSearchOverlay, initSearch } from './components/search';
 import { renderControls, initControls } from './components/controls';
 import { applyTheme } from './state/store';
 import { initScrollAnimations } from './utils/scroll-animations';
+import { initGridPulse } from './utils/grid-pulse';
 import { onReady, $ } from './utils/dom';
 
 function render(): void {
@@ -51,6 +52,9 @@ async function init(): Promise<void> {
 
   // Initialize scroll animations
   initScrollAnimations();
+
+  // Initialize grid pulse effects
+  initGridPulse();
 
   // Start hero animations after a brief delay for DOM paint
   requestAnimationFrame(() => {
