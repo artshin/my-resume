@@ -1,0 +1,618 @@
+{
+  "categories": {
+    "languages": [
+      {
+        "name": "JavaScript",
+        "level": "expert",
+        "yearsUsed": 12,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["JS", "javascript", "ES6", "ECMAScript"]
+      },
+      {
+        "name": "TypeScript",
+        "level": "expert",
+        "yearsUsed": 6,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["TS", "typescript"]
+      },
+      {
+        "name": "Swift",
+        "level": "expert",
+        "yearsUsed": 10,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["swift", "iOS"]
+      },
+      {
+        "name": "Objective-C",
+        "level": "expert",
+        "yearsUsed": 10,
+        "lastUsed": 2022,
+        "wantToUse": false,
+        "keywords": ["objc", "objective-c", "obj-c"]
+      },
+      {
+        "name": "Kotlin",
+        "level": "advanced",
+        "yearsUsed": 6,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["kotlin", "android"]
+      },
+      {
+        "name": "Java",
+        "level": "advanced",
+        "yearsUsed": 8,
+        "lastUsed": 2020,
+        "wantToUse": false,
+        "keywords": ["java", "android"]
+      },
+      {
+        "name": "Python",
+        "level": "intermediate",
+        "yearsUsed": 4,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["python", "py"]
+      },
+      {
+        "name": "Rust",
+        "level": "intermediate",
+        "yearsUsed": 2,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["rust", "rustlang"]
+      },
+      {
+        "name": "Go",
+        "level": "intermediate",
+        "yearsUsed": 2,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["golang", "go"]
+      },
+      {
+        "name": "Ruby",
+        "level": "intermediate",
+        "yearsUsed": 3,
+        "lastUsed": 2023,
+        "wantToUse": false,
+        "keywords": ["ruby", "rails"]
+      }
+    ],
+    "mobile": [
+      {
+        "name": "UIKit",
+        "level": "expert",
+        "yearsUsed": 10,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["uikit", "iOS", "UIViewController"]
+      },
+      {
+        "name": "SwiftUI",
+        "level": "advanced",
+        "yearsUsed": 4,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["swiftui", "declarative UI"]
+      },
+      {
+        "name": "Swift Concurrency",
+        "level": "advanced",
+        "yearsUsed": 3,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["async/await", "actors", "concurrency"]
+      },
+      {
+        "name": "Combine",
+        "level": "advanced",
+        "yearsUsed": 4,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["combine", "reactive", "publishers"]
+      },
+      {
+        "name": "SwiftData",
+        "level": "intermediate",
+        "yearsUsed": 1,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["swiftdata", "persistence"]
+      },
+      {
+        "name": "Jetpack Compose",
+        "level": "advanced",
+        "yearsUsed": 3,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["compose", "android", "jetpack"]
+      },
+      {
+        "name": "React Native",
+        "level": "expert",
+        "yearsUsed": 6,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["react-native", "RN", "cross-platform"]
+      },
+      {
+        "name": "Expo",
+        "level": "expert",
+        "yearsUsed": 4,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["expo", "expo-cli", "EAS"]
+      },
+      {
+        "name": "Rust FFI",
+        "level": "intermediate",
+        "yearsUsed": 2,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["ffi", "native modules", "uniffi"]
+      },
+      {
+        "name": "EAS Build",
+        "level": "advanced",
+        "yearsUsed": 3,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["eas", "eas build", "expo application services", "expo build"]
+      }
+    ],
+    "frameworks": [
+      {
+        "name": "React",
+        "level": "advanced",
+        "yearsUsed": 6,
+        "lastUsed": 2024,
+        "wantToUse": false,
+        "keywords": ["react", "reactjs", "hooks"]
+      },
+      {
+        "name": "Node.js",
+        "level": "advanced",
+        "yearsUsed": 8,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["node", "nodejs", "backend"]
+      },
+      {
+        "name": "Next.js",
+        "level": "intermediate",
+        "yearsUsed": 2,
+        "lastUsed": 2024,
+        "wantToUse": false,
+        "keywords": ["nextjs", "next", "SSR"]
+      },
+      {
+        "name": "NestJS",
+        "level": "intermediate",
+        "yearsUsed": 2,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["nestjs", "nest"]
+      },
+      {
+        "name": "Fastify",
+        "level": "intermediate",
+        "yearsUsed": 2,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["fastify"]
+      },
+      {
+        "name": "Express",
+        "level": "advanced",
+        "yearsUsed": 6,
+        "lastUsed": 2023,
+        "wantToUse": false,
+        "keywords": ["express", "expressjs"]
+      },
+      {
+        "name": "REST",
+        "level": "expert",
+        "yearsUsed": 12,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["rest", "restful", "rest api", "http api"]
+      },
+      {
+        "name": "GraphQL",
+        "level": "advanced",
+        "yearsUsed": 5,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["graphql", "gql", "apollo"]
+      },
+      {
+        "name": "gRPC",
+        "level": "intermediate",
+        "yearsUsed": 2,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["grpc", "protocol buffers", "protobuf"]
+      },
+      {
+        "name": "Redux Toolkit",
+        "level": "advanced",
+        "yearsUsed": 4,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["redux", "redux toolkit", "rtk", "state management", "rtk query"]
+      },
+      {
+        "name": "MobX",
+        "level": "advanced",
+        "yearsUsed": 3,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["mobx", "mobx-state-tree", "mst", "observable"]
+      },
+      {
+        "name": "TailwindCSS",
+        "level": "intermediate",
+        "yearsUsed": 2,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["tailwind", "tailwindcss", "utility-first css"]
+      }
+    ],
+    "databases": [
+      {
+        "name": "PostgreSQL",
+        "level": "advanced",
+        "yearsUsed": 6,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["postgres", "postgresql", "psql"]
+      },
+      {
+        "name": "SQLite",
+        "level": "advanced",
+        "yearsUsed": 8,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["sqlite", "sqlite3"]
+      },
+      {
+        "name": "MySQL",
+        "level": "intermediate",
+        "yearsUsed": 4,
+        "lastUsed": 2020,
+        "wantToUse": false,
+        "keywords": ["mysql"]
+      },
+      {
+        "name": "MongoDB",
+        "level": "intermediate",
+        "yearsUsed": 3,
+        "lastUsed": 2023,
+        "wantToUse": false,
+        "keywords": ["mongo", "mongodb", "nosql"]
+      },
+      {
+        "name": "Firebase",
+        "level": "advanced",
+        "yearsUsed": 5,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["firebase", "firestore", "realtime database"]
+      },
+      {
+        "name": "Supabase",
+        "level": "intermediate",
+        "yearsUsed": 2,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["supabase"]
+      }
+    ],
+    "cloud": [
+      {
+        "name": "AWS",
+        "level": "advanced",
+        "yearsUsed": 6,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["aws", "amazon web services", "S3", "EC2", "Lambda"]
+      },
+      {
+        "name": "GCP",
+        "level": "intermediate",
+        "yearsUsed": 3,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["gcp", "google cloud", "google cloud platform"]
+      },
+      {
+        "name": "Heroku",
+        "level": "advanced",
+        "yearsUsed": 5,
+        "lastUsed": 2023,
+        "wantToUse": false,
+        "keywords": ["heroku"]
+      }
+    ],
+    "devops": [
+      {
+        "name": "GitHub Actions",
+        "level": "expert",
+        "yearsUsed": 5,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["github actions", "GHA", "workflows"]
+      },
+      {
+        "name": "GitLab CI",
+        "level": "advanced",
+        "yearsUsed": 4,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["gitlab", "gitlab-ci", "gitlab pipelines"]
+      },
+      {
+        "name": "Bitbucket Pipelines",
+        "level": "advanced",
+        "yearsUsed": 3,
+        "lastUsed": 2023,
+        "wantToUse": true,
+        "keywords": ["bitbucket", "bitbucket pipelines"]
+      },
+      {
+        "name": "CircleCI",
+        "level": "advanced",
+        "yearsUsed": 4,
+        "lastUsed": 2022,
+        "wantToUse": false,
+        "keywords": ["circleci", "circle"]
+      },
+      {
+        "name": "Fastlane",
+        "level": "expert",
+        "yearsUsed": 7,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["fastlane", "mobile CI", "app deployment"]
+      },
+      {
+        "name": "Docker",
+        "level": "advanced",
+        "yearsUsed": 5,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["docker", "containers", "dockerfile"]
+      },
+      {
+        "name": "Dokku",
+        "level": "intermediate",
+        "yearsUsed": 2,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["dokku", "heroku alternative"]
+      },
+      {
+        "name": "Ansible",
+        "level": "intermediate",
+        "yearsUsed": 2,
+        "lastUsed": 2023,
+        "wantToUse": false,
+        "keywords": ["ansible", "automation", "IaC"]
+      }
+    ],
+    "testing": [
+      {
+        "name": "XCTest",
+        "level": "expert",
+        "yearsUsed": 8,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["xctest", "iOS testing", "unit tests"]
+      },
+      {
+        "name": "Maestro",
+        "level": "advanced",
+        "yearsUsed": 2,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["maestro", "mobile E2E", "UI testing"]
+      },
+      {
+        "name": "Jest",
+        "level": "advanced",
+        "yearsUsed": 5,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["jest", "javascript testing"]
+      },
+      {
+        "name": "Cypress",
+        "level": "intermediate",
+        "yearsUsed": 2,
+        "lastUsed": 2023,
+        "wantToUse": false,
+        "keywords": ["cypress", "E2E testing", "web testing"]
+      }
+    ],
+    "tools": [
+      {
+        "name": "Git",
+        "level": "expert",
+        "yearsUsed": 12,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["git", "version control", "github", "gitlab"]
+      },
+      {
+        "name": "VS Code",
+        "level": "expert",
+        "yearsUsed": 6,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["vscode", "visual studio code"]
+      },
+      {
+        "name": "Vim",
+        "level": "advanced",
+        "yearsUsed": 8,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["vim", "neovim", "nvim"]
+      },
+      {
+        "name": "Xcode",
+        "level": "expert",
+        "yearsUsed": 10,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["xcode", "iOS development"]
+      },
+      {
+        "name": "Android Studio",
+        "level": "advanced",
+        "yearsUsed": 6,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["android studio", "android development"]
+      }
+    ],
+    "ai": [
+      {
+        "name": "LLM Integration",
+        "level": "advanced",
+        "yearsUsed": 2,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["llm", "large language models", "openai", "anthropic", "claude", "gpt", "ai integration"]
+      },
+      {
+        "name": "OpenAI API",
+        "level": "advanced",
+        "yearsUsed": 2,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["openai", "gpt-4", "chatgpt", "openai router", "ai api"]
+      },
+      {
+        "name": "Ollama",
+        "level": "intermediate",
+        "yearsUsed": 1,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["ollama", "self-hosted llm", "local llm", "qwen", "llama"]
+      },
+      {
+        "name": "AI Agents",
+        "level": "intermediate",
+        "yearsUsed": 1,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["ai agents", "multi-agent", "autonomous agents", "agentic", "agent orchestration"]
+      }
+    ],
+    "domains": [
+      {
+        "name": "Fintech",
+        "level": "expert",
+        "yearsUsed": 6,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["fintech", "financial technology", "banking"]
+      },
+      {
+        "name": "Cryptocurrency",
+        "level": "advanced",
+        "yearsUsed": 4,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["crypto", "cryptocurrency", "blockchain", "wallet"]
+      },
+      {
+        "name": "Payments",
+        "level": "advanced",
+        "yearsUsed": 5,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["payments", "payment processing", "transactions"]
+      },
+      {
+        "name": "Mobile DevOps",
+        "level": "expert",
+        "yearsUsed": 7,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["mobile CI/CD", "app store", "release management"]
+      },
+      {
+        "name": "App Store Management",
+        "level": "expert",
+        "yearsUsed": 8,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["app store connect", "google play console", "app distribution"]
+      },
+      {
+        "name": "Mobile Architecture",
+        "level": "expert",
+        "yearsUsed": 8,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["MVVM", "clean architecture", "modular architecture"]
+      }
+    ],
+    "soft": [
+      {
+        "name": "Technical Leadership",
+        "level": "advanced",
+        "yearsUsed": 5,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["tech lead", "team lead", "leadership"]
+      },
+      {
+        "name": "Release Management",
+        "level": "expert",
+        "yearsUsed": 6,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["release management", "deployment", "versioning"]
+      },
+      {
+        "name": "Security Compliance",
+        "level": "advanced",
+        "yearsUsed": 4,
+        "lastUsed": 2024,
+        "wantToUse": true,
+        "keywords": ["SOC2", "security audit", "compliance"]
+      }
+    ]
+  },
+  "featured": [
+    "Swift",
+    "TypeScript",
+    "React Native",
+    "Expo",
+    "GitHub Actions",
+    "Fastlane",
+    "Mobile DevOps",
+    "App Store Management",
+    "Mobile Architecture",
+    "Release Management",
+    "Fintech"
+  ],
+  "deprecated": [
+    "Objective-C",
+    "Java",
+    "jQuery",
+    "Ruby",
+    "MySQL",
+    "CircleCI",
+    "Ansible",
+    "Cypress",
+    "Express"
+  ]
+}

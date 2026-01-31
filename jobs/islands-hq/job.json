@@ -1,0 +1,34 @@
+{
+  "company": "Islands HQ",
+  "companyDescription": "Islands HQ is a software development agency delivering web and mobile applications for enterprise clients.",
+  "position": "Senior Software Developer",
+  "location": "Remote (Toronto)",
+  "duration": {
+    "start": "November 2023",
+    "end": "May 2024"
+  },
+  "description": [
+    "Led and managed a team of engineers to build and deliver Leo Wallet iOS and Android in just two months",
+    "Implemented a CI/CD strategy using GitHub Actions and Fastlane, achieving 260+ automated deployments over 6 months",
+    "Developed secure authentication flows and state management (Redux, React Context)",
+    "Collaborated with designers and backend teams to optimize API integrations",
+    "Mentored junior engineers and conducted weekly code reviews"
+  ],
+  "technologies": [
+    "React Native",
+    "TypeScript",
+    "GitHub Actions",
+    "Fastlane",
+    "Redux",
+    "React Context",
+    "iOS",
+    "Android",
+    "Aleo blockchain"
+  ],
+  "achievements": [
+    "Delivered crypto wallet app in 2 months",
+    "260+ automated deployments over 6 months via GitHub Actions and Fastlane",
+    "Secure crypto payments on Aleo blockchain",
+    "Zero downtime deployment strategy"
+  ]
+}

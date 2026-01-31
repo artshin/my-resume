@@ -1,0 +1,29 @@
+{
+  "company": "Konrad Group",
+  "companyDescription": "Konrad Group is a digital agency that designs and builds web and mobile applications for enterprise clients.",
+  "position": "Software Developer",
+  "location": "Toronto",
+  "duration": {
+    "start": "September 2012",
+    "end": "June 2014"
+  },
+  "description": [
+    "Led the development of IronPlanet's enterprise iOS app with advanced UX/UI design patterns",
+    "Co-developed the McDonald's Canada iOS app, delivering new features",
+    "Contributed to app updates for major clients including Famous Footwear, Target, and Pfizer",
+    "Ensured compliance with App Store policies"
+  ],
+  "technologies": [
+    "iOS",
+    "Objective-C",
+    "Swift",
+    "Mobile app development",
+    "UX/UI design",
+    "App Store compliance"
+  ],
+  "achievements": [
+    "Delivered enterprise-level iOS applications",
+    "Worked with major clients (McDonald's, Target, Pfizer)",
+    "Enhanced functionality, performance, and scalability"
+  ]
+}

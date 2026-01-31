@@ -1,0 +1,30 @@
+{
+  "company": "Bansho Inc",
+  "companyDescription": "Bansho is an EdTech startup building a TikTok-style mobile app delivering educational content for kids.",
+  "position": "Senior Mobile Developer",
+  "location": "Remote",
+  "duration": {
+    "start": "February 2021",
+    "end": "April 2022"
+  },
+  "description": [
+    "Delivered the Bansho iOS & Android app to App Store and Google Play in under six months",
+    "Architected and integrated APIs while managing GitHub Actions CI/CD pipelines",
+    "Implemented state management (Redux) for scalable application logic",
+    "Used Fastlane and self-hosted runners to reduce build times"
+  ],
+  "technologies": [
+    "React Native",
+    "TypeScript",
+    "GitHub Actions",
+    "Fastlane",
+    "Redux",
+    "Self-hosted runners",
+    "API integration"
+  ],
+  "achievements": [
+    "Launched educational app in under 6 months",
+    "Reduced build times through optimization",
+    "Delivered from scratch to production"
+  ]
+}

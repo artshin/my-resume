@@ -1,0 +1,32 @@
+{
+  "company": "Wonolo Inc",
+  "companyDescription": "Wonolo is a staffing platform that connects businesses with on-demand workers for warehouse, logistics, and retail jobs.",
+  "position": "Senior Mobile Developer",
+  "location": "Remote",
+  "duration": {
+    "start": "April 2022",
+    "end": "September 2023"
+  },
+  "description": [
+    "Spearheaded the migration of the React Native app from JavaScript to TypeScript",
+    "Optimized CI/CD pipelines with BuildKite and GitHub Actions, cutting deployment times by 30%",
+    "Established automated testing workflows (Jest, React Testing Library)",
+    "Acted as a technical lead, mentoring engineers and guiding architecture decisions"
+  ],
+  "technologies": [
+    "React Native",
+    "TypeScript",
+    "JavaScript",
+    "BuildKite",
+    "GitHub Actions",
+    "Jest",
+    "React Testing Library",
+    "CI/CD"
+  ],
+  "achievements": [
+    "30% reduction in deployment times",
+    "20% reduction in post-release bugs",
+    "Successful JavaScript to TypeScript migration",
+    "Improved build stability"
+  ]
+}

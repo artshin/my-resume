@@ -1,0 +1,32 @@
+{
+  "name": "Arthur Shinkevich",
+  "contact": {
+    "email": "ashnkvch@gmail.com",
+    "phone": "+1 236 867 8993",
+    "location": "Vancouver, BC, Canada",
+    "linkedin": "https://www.linkedin.com/in/arthur-shinkevich-2946271ab/",
+    "github": "https://github.com/artshin",
+    "website": null
+  },
+  "summary": {
+    "default": "14 years shipping mobile apps. React Native, Swift, Kotlin. CI/CD pipelines that actually work. Apps with 500K+ users (McDonald's Canada, Wave Financial). Currently building wallet infrastructure for Bittensor.",
+    "templates": {
+      "mobile": "14 years of iOS and Android. Native Swift, Kotlin, and cross-platform React Native. Built CI/CD for daily and on-demand releases - OTA deployments that are predictable, not prayers. Shipped apps to 500K+ users. Currently deep in Expo, Rust FFI, and crypto wallet UX.",
+      "leadership": "14 years shipping mobile apps, 5 years leading teams. Mentored engineers, ran code reviews, built CI/CD that freed devs to focus on product instead of fighting builds. Shipped apps with 500K+ users. Led migrations, established testing practices, kept releases predictable.",
+      "architect": "14 years of mobile architecture decisions. Monorepos, modular builds, CI/CD for daily and on-demand delivery. Migrated codebases to TypeScript, integrated Rust via FFI, designed OTA pipelines that actually work. From REST to GraphQL to gRPC - whatever the API needs."
+    }
+  },
+  "targetRoles": [
+    "Senior Mobile Engineer",
+    "Mobile Tech Lead",
+    "Solutions Architect",
+    "Mobile Engineering Manager"
+  ],
+  "preferences": {
+    "remote": true,
+    "hybrid": true,
+    "onsite": false,
+    "locations": ["Europe", "USA"],
+    "industries": ["Fintech", "SaaS", "Big Tech"]
+  }
+}

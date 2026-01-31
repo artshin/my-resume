@@ -1,0 +1,238 @@
+{
+  "company": {
+    "name": "Weymedia Inc (CreditCardGenius)",
+    "industry": "Financial services / Rewards platform",
+    "size": "small",
+    "stage": "established",
+    "description": "Canadian fintech company providing gamified approach to financial product discovery and rewards optimization",
+    "website": "https://creditcardgenius.ca",
+    "location": "New Brunswick, Canada (Remote)"
+  },
+  "role": {
+    "title": "Senior App Developer",
+    "level": "senior",
+    "type": "full-time",
+    "department": "Engineering",
+    "reportingTo": "Engineering Lead",
+    "teamSize": 6,
+    "directReports": 0
+  },
+  "duration": {
+    "start": "May 2024",
+    "end": "October 2025"
+  },
+  "responsibilities": {
+    "primary": [
+      "Single-handedly architect and develop company's first mobile application",
+      "Own entire mobile solution from conception to production deployment",
+      "Integrate third-party financial APIs (Plaid, Flinks) for secure data handling"
+    ],
+    "secondary": [
+      "Collaborate with backend team for API design and optimization",
+      "Work with product team to translate business requirements into technical solutions",
+      "Coordinate with limited UI/UX design resources for optimal user experience"
+    ],
+    "leadership": [
+      "Drive mobile strategy and technical decisions independently",
+      "Coordinate cross-functional team members to gather resources and context",
+      "Plan and execute mobile development roadmap with minimal supervision"
+    ],
+    "technical": [
+      "Build custom Expo native modules for high-performance API processing",
+      "Implement comprehensive CI/CD pipeline with self-hosted Bitbucket runners",
+      "Establish automated testing workflows using Cypress for React Native",
+      "Navigate SOC2 security audit requirements and compliance"
+    ],
+    "business": [
+      "Deliver company's entry into mobile market within tight timeline constraints",
+      "Create gamified user experience to increase engagement with financial products",
+      "Build scalable mobile foundation for future feature development"
+    ]
+  },
+  "projects": [
+    {
+      "name": "GeniusCash Mobile App",
+      "description": "Company's first mobile application for gamified financial rewards and product discovery",
+      "role": "Sole Mobile Developer",
+      "duration": "9 months (April 2024 - January 2025)",
+      "technologies": [
+        "React Native",
+        "Expo",
+        "TypeScript",
+        "Plaid API",
+        "Flinks API",
+        "Sentry",
+        "Bugfender"
+      ],
+      "impact": "Launched first mobile product, achieved 1000+ monthly active users, 3.5-4.3 app store rating",
+      "teamSize": 1,
+      "challenges": [
+        "Limited UI/UX design resources requiring creative problem-solving",
+        "Complex financial integrations with strict security requirements",
+        "Heavy API processing that could block UI thread performance",
+        "SOC2 compliance requirements for financial data handling"
+      ],
+      "solutions": [
+        "Built custom native Expo modules for efficient API processing without blocking UI",
+        "Implemented robust error handling and monitoring with Sentry and Bugfender",
+        "Created intuitive UX patterns despite limited design resources",
+        "Architected secure data flows meeting SOC2 audit requirements"
+      ]
+    },
+    {
+      "name": "Self-Hosted CI/CD Pipeline",
+      "description": "Custom Bitbucket pipeline infrastructure for mobile app deployment",
+      "role": "DevOps Engineer / Mobile Developer",
+      "duration": "2 months",
+      "technologies": [
+        "Bitbucket Pipelines",
+        "Self-hosted runners",
+        "TestFlight",
+        "Google Play",
+        "Expo OTA"
+      ],
+      "impact": "Zero-cost deployment solution, faster builds than cloud alternatives, automated testing and deployment",
+      "teamSize": 1,
+      "challenges": [
+        "Expensive cloud CI/CD solutions beyond company budget",
+        "Need for automated TestFlight and Google Play deployments",
+        "Requirement for on-demand OTA updates"
+      ],
+      "solutions": [
+        "Built comprehensive self-hosted pipeline with code health checks",
+        "Automated store deployments reducing manual intervention to zero",
+        "Implemented OTA update system for rapid feature rollouts"
+      ]
+    }
+  ],
+  "technologies": {
+    "languages": ["TypeScript", "JavaScript", "Native modules"],
+    "frameworks": ["React Native", "Expo"],
+    "databases": ["SQLite", "AsyncStorage"],
+    "cloud": ["Self-hosted infrastructure"],
+    "devops": ["Bitbucket Pipelines", "Self-hosted runners", "TestFlight", "Google Play Console"],
+    "tools": ["Expo CLI", "Xcode", "Android Studio", "VS Code"],
+    "mobile": ["React Native", "Expo", "iOS", "Android", "Native modules"],
+    "testing": ["Cypress", "Jest", "Automated testing"],
+    "integrations": ["Plaid API", "Flinks API", "Sentry", "Bugfender"],
+    "financial": ["PCI DSS compliance", "SOC2", "Financial data security"]
+  },
+  "achievements": [
+    {
+      "description": "Single-handedly delivered company's first mobile application in 9 months",
+      "impact": "Opened new mobile market channel for customer acquisition",
+      "metrics": "100% mobile solution ownership, 0 to production deployment",
+      "category": "business",
+      "quantifiable": true
+    },
+    {
+      "description": "Achieved 1000+ monthly active users with 3.5-4.3 app store rating",
+      "impact": "Strong user adoption and satisfaction for new mobile product",
+      "metrics": "1000+ MAU, 3.5-4.3 star rating across app stores",
+      "category": "user",
+      "quantifiable": true
+    },
+    {
+      "description": "Built zero-cost CI/CD infrastructure replacing expensive cloud solutions",
+      "impact": "Significant cost savings while improving deployment efficiency",
+      "metrics": "100% cost reduction vs cloud alternatives, automated deployments",
+      "category": "cost",
+      "quantifiable": true
+    },
+    {
+      "description": "Successfully passed SOC2 security audit for financial compliance",
+      "impact": "Enabled secure handling of financial data and regulatory compliance",
+      "metrics": "100% SOC2 compliance, zero security violations",
+      "category": "quality",
+      "quantifiable": true
+    },
+    {
+      "description": "Created custom native modules for high-performance API processing",
+      "impact": "Solved critical performance bottlenecks in financial data processing",
+      "metrics": "Eliminated UI thread blocking, smooth user experience",
+      "category": "performance",
+      "quantifiable": false
+    }
+  ],
+  "skills": {
+    "developed": [
+      "Financial API integrations",
+      "SOC2 compliance",
+      "Custom native module development",
+      "Self-hosted CI/CD architecture"
+    ],
+    "strengthened": [
+      "Independent project leadership",
+      "Cross-functional coordination",
+      "Mobile app architecture",
+      "Security-first development"
+    ],
+    "applied": [
+      "React Native development",
+      "Expo framework",
+      "Mobile UI/UX design",
+      "DevOps practices"
+    ]
+  },
+  "context": {
+    "businessContext": "Canadian fintech startup focused on gamified financial product discovery and rewards optimization",
+    "challenges": [
+      "Limited resources requiring solo mobile development",
+      "Strict financial security and compliance requirements",
+      "Tight timeline for market entry with first mobile product",
+      "Heavy API processing requirements affecting performance"
+    ],
+    "constraints": [
+      "Small team with limited UI/UX design support",
+      "Budget constraints requiring cost-effective solutions",
+      "SOC2 compliance requirements",
+      "Need for rapid feature development and deployment"
+    ],
+    "stakeholders": [
+      "Product team",
+      "Backend developers",
+      "Business stakeholders",
+      "End users",
+      "Security auditors"
+    ],
+    "methodology": "agile",
+    "workStyle": "remote"
+  },
+  "keywords": {
+    "jobTitles": [
+      "Senior Mobile Developer",
+      "React Native Developer",
+      "Mobile Engineer",
+      "Full Stack Mobile Developer",
+      "Fintech Developer"
+    ],
+    "domains": [
+      "fintech",
+      "financial services",
+      "rewards",
+      "mobile banking",
+      "gamification",
+      "Canadian market"
+    ],
+    "buzzwords": [
+      "scalable",
+      "secure",
+      "compliant",
+      "gamified",
+      "self-sufficient",
+      "cost-effective",
+      "performance-optimized"
+    ],
+    "certifications": ["SOC2 compliant development"]
+  },
+  "relevanceWeights": {
+    "mobile": 1.0,
+    "web": 0.2,
+    "backend": 0.4,
+    "frontend": 0.9,
+    "fullstack": 0.8,
+    "leadership": 0.9,
+    "startup": 1.0,
+    "enterprise": 0.6
+  }
+}

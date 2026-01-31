@@ -1,0 +1,35 @@
+Senior Mobile Developer - Fintech Startup
+
+About Us:
+We're a fast-growing fintech startup revolutionizing payments in emerging markets. Our mobile apps handle millions of transactions daily.
+
+Role:
+We're looking for a Senior Mobile Developer to join our mobile team and help build the next generation of our iOS and Android applications.
+
+Requirements:
+- 5+ years of mobile development experience
+- Expert-level Swift and/or Kotlin
+- Experience with React Native for cross-platform development
+- Strong understanding of mobile CI/CD pipelines (Fastlane, GitHub Actions)
+- Experience with RESTful APIs and GraphQL
+- Familiarity with mobile security best practices
+- Experience in fintech or payments is a plus
+
+Nice to have:
+- SwiftUI experience
+- Jetpack Compose experience
+- Experience with Firebase or similar BaaS
+- Exposure to cryptocurrency or blockchain
+
+Responsibilities:
+- Lead development of new mobile features
+- Mentor junior developers
+- Collaborate with product and design teams
+- Participate in architecture decisions
+- Improve app performance and reliability
+
+What we offer:
+- Fully remote work
+- Competitive salary + equity
+- Fast-paced, startup environment
+- Direct impact on product direction

@@ -1,0 +1,89 @@
+About the job
+Fully Remote Opportunity - Canada
+
+About BrightOrder
+
+We build technology that keeps fleets safer, smarter, and more profitable.
+
+Our platform connects vehicles, data, and people to deliver real-time visibility and performance insights.
+
+We're scaling fast across North America and we're looking for builders who want impact, not bureaucracy.
+
+The Mission
+
+Join a world-class product and engineering team shaping the future of connected fleet intelligence.
+
+You'll transform complex logistics and maintenance data into intuitive mobile experiences that drivers and managers depend on every day.
+
+How We Work
+
+We move with purpose.
+
+We hold a high bar for quality and accountability.
+
+We work with integrity, passion, and autonomy every day.
+
+If that makes you think "HELL YEAH," keep reading.
+
+If not, this isn't your role.
+
+The Role
+
+Title: Senior React Native Developer (Remote)
+
+You'll own the mobile experience that connects our cloud platform to users on the ground.
+
+You'll design, build, and ship cross-platform apps that are fast, resilient, and loved by users.
+
+Every screen you create directly impacts how fleets move, maintain, and perform.
+
+What You'll Do
+
+ Build intuitive, high-performance apps with React Native (TypeScript). 
+ Integrate with AWS microservices, Firebase, and real-time APIs. 
+ Implement offline-first reliability and secure data sync. 
+ Deliver clean, testable, reusable code and polished UX. 
+ Automate app delivery pipelines for iOS and Android. 
+ Collaborate with Product, QA, and Backend teams to ship features that matter. 
+
+Who You Are
+
+ Hands-on. You ship fast, test hard, and own results. 
+ Craft-driven. You care about architecture, detail, and performance. 
+ Resilient. You fix problems under pressure and stay calm. 
+ Curious. You leverage AI tools (ChatGPT, Copilot, etc.) to move faster. 
+ Collaborative. You communicate clearly and elevate teammates. 
+ Accountable. You deliver what you promise — with pride and precision 
+
+Requirements
+
+Must Have
+
+ 5+ years professional mobile development experience. 
+ 3+ years building cross-platform apps in React Native (TypeScript). 
+ Strong JavaScript/TypeScript fundamentals and React hooks knowledge. 
+ Experience integrating RESTful and/or GraphQL APIs. 
+ Hands-on Firebase experience (Authentication, Firestore, Cloud Messaging, Analytics). 
+ Familiar with mobile build pipelines (Xcode, Gradle, Fastlane). 
+ Experience publishing apps to App Store and Google Play. 
+ Skilled with state management (Redux, Zustand, Recoil). 
+ Working knowledge of Git, CI/CD, and agile delivery. 
+ Strong written + verbal communication in a remote-first team. 
+
+Nice to Have
+
+ Native iOS/Android experience (Swift, Kotlin, Java). 
+ Experience with React JS for web. 
+ Exposure to AWS, microservices, or real-time messaging. 
+ Familiar with Bitrise, AppCenter, or Gitlab Actions for mobile CI/CD. 
+ Background in fleet, logistics, or telematics platforms. 
+
+Benefits
+
+Why BrightOrder
+
+ Make a real-world impact — we keep fleets running safely and efficiently. 
+ Work remotely with high trust and clear accountability. 
+ Competitive pay + health, dental, and vision benefits. 
+ Growth-focused culture with mentorship and autonomy. 
+ Join a team that values innovation, transparency, and results. 

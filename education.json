@@ -1,0 +1,15 @@
+{
+  "education": [
+    {
+      "degree": "Bachelor",
+      "field": "Computer Science",
+      "institution": "Seneca Polytechnic",
+      "location": "Toronto, Canada",
+      "graduationYear": 2012,
+      "honors": null,
+      "relevant": true
+    }
+  ],
+  "certifications": [],
+  "continuingEducation": []
+}

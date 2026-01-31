@@ -1,0 +1,416 @@
+/* Resume Template Styles
+ * Clean, professional, ATS-friendly
+ * Optimized for both screen and print
+ */
+
+/* CSS Reset & Base */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* System font stack - no external dependencies */
+:root {
+  --font-primary: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  --font-mono: 'SF Mono', 'Monaco', 'Inconsolata', 'Roboto Mono', monospace;
+
+  --color-text: #1a1a1a;
+  --color-text-secondary: #4a4a4a;
+  --color-text-muted: #6a6a6a;
+  --color-accent: #2563eb;
+  --color-border: #d1d5db;
+  --color-bg: #ffffff;
+
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 1.5rem;
+  --spacing-xl: 2rem;
+
+  --font-size-xs: 0.75rem;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.125rem;
+  --font-size-xl: 1.25rem;
+  --font-size-2xl: 1.5rem;
+  --font-size-3xl: 1.875rem;
+}
+
+html {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+body {
+  font-family: var(--font-primary);
+  color: var(--color-text);
+  background: var(--color-bg);
+}
+
+/* Resume Container */
+.resume {
+  max-width: 8.5in;
+  margin: 0 auto;
+  padding: 0.5in 0.6in;
+  background: var(--color-bg);
+}
+
+/* Links */
+a {
+  color: var(--color-accent);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header Section */
+.header {
+  text-align: center;
+  margin-bottom: var(--spacing-lg);
+  padding-bottom: var(--spacing-md);
+  border-bottom: 2px solid var(--color-text);
+}
+
+.header__name {
+  font-size: var(--font-size-3xl);
+  font-weight: 700;
+  letter-spacing: -0.025em;
+  margin-bottom: var(--spacing-sm);
+}
+
+.header__contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--spacing-sm) var(--spacing-md);
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+}
+
+.header__contact-item {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-xs);
+}
+
+.header__contact-separator {
+  color: var(--color-border);
+}
+
+/* Section Styles */
+.section {
+  margin-bottom: var(--spacing-lg);
+}
+
+.section__title {
+  font-size: var(--font-size-lg);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text);
+  border-bottom: 1px solid var(--color-border);
+  padding-bottom: var(--spacing-xs);
+  margin-bottom: var(--spacing-md);
+}
+
+/* Summary Section */
+.summary {
+  margin-bottom: var(--spacing-lg);
+}
+
+.summary__text {
+  font-size: var(--font-size-base);
+  line-height: 1.6;
+  color: var(--color-text);
+}
+
+/* Skills Section */
+.skills {
+  margin-bottom: var(--spacing-lg);
+}
+
+.skills__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-xs) var(--spacing-sm);
+  list-style: none;
+}
+
+.skills__item {
+  font-size: var(--font-size-sm);
+  color: var(--color-text);
+}
+
+.skills__item::after {
+  content: " \2022";
+  color: var(--color-border);
+  margin-left: var(--spacing-sm);
+}
+
+.skills__item:last-child::after {
+  content: "";
+}
+
+.skills__item--highlighted {
+  font-weight: 600;
+}
+
+.skills__category {
+  margin-bottom: var(--spacing-sm);
+}
+
+.skills__category-label {
+  font-weight: 600;
+  font-size: var(--font-size-sm);
+  color: var(--color-text);
+  margin-right: var(--spacing-xs);
+}
+
+.skills__category-items {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+}
+
+/* Experience Section */
+.experience {
+  margin-bottom: var(--spacing-lg);
+}
+
+.experience__item {
+  margin-bottom: var(--spacing-lg);
+}
+
+.experience__item:last-child {
+  margin-bottom: 0;
+}
+
+.experience__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: var(--spacing-xs);
+  margin-bottom: var(--spacing-xs);
+}
+
+.experience__title {
+  font-size: var(--font-size-base);
+  font-weight: 700;
+  color: var(--color-text);
+}
+
+.experience__company {
+  font-size: var(--font-size-base);
+  font-weight: 400;
+  color: var(--color-text);
+}
+
+.experience__meta {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+  text-align: right;
+}
+
+.experience__location {
+  display: block;
+}
+
+.experience__dates {
+  display: block;
+}
+
+.experience__company-description {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  margin-top: var(--spacing-xs);
+  margin-bottom: var(--spacing-xs);
+  line-height: 1.4;
+}
+
+.experience__technologies {
+  font-size: var(--font-size-sm);
+  color: var(--color-text);
+  margin-top: var(--spacing-xs);
+  margin-bottom: var(--spacing-xs);
+}
+
+.experience__bullets {
+  list-style: disc;
+  margin-left: var(--spacing-lg);
+  margin-top: var(--spacing-sm);
+}
+
+.experience__bullet {
+  font-size: var(--font-size-sm);
+  line-height: 1.5;
+  margin-bottom: var(--spacing-xs);
+  color: var(--color-text);
+}
+
+.experience__bullet:last-child {
+  margin-bottom: 0;
+}
+
+/* Projects Section */
+.projects {
+  margin-bottom: var(--spacing-lg);
+}
+
+.project {
+  margin-bottom: var(--spacing-md);
+}
+
+.project:last-child {
+  margin-bottom: 0;
+}
+
+.project__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: var(--spacing-xs);
+}
+
+.project__name {
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.project__tech {
+  font-size: var(--font-size-xs);
+  color: var(--color-text-muted);
+  font-family: var(--font-mono);
+}
+
+.project__description {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  margin-bottom: var(--spacing-xs);
+}
+
+.project__impact {
+  font-size: var(--font-size-sm);
+  color: var(--color-text);
+  font-weight: 500;
+}
+
+/* Education Section */
+.education {
+  margin-bottom: var(--spacing-md);
+}
+
+.education__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: var(--spacing-sm);
+}
+
+.education__item:last-child {
+  margin-bottom: 0;
+}
+
+.education__degree {
+  font-size: var(--font-size-sm);
+  font-weight: 600;
+  color: var(--color-text);
+}
+
+.education__institution {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+}
+
+.education__year {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-muted);
+}
+
+/* Certifications */
+.certifications__list {
+  list-style: none;
+}
+
+.certifications__item {
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+  margin-bottom: var(--spacing-xs);
+}
+
+/* Print Styles */
+@media print {
+  html {
+    font-size: 11pt;
+  }
+
+  body {
+    background: white;
+    color: black;
+  }
+
+  .resume {
+    max-width: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  a {
+    color: black;
+    text-decoration: none;
+  }
+
+  .header {
+    border-bottom-color: black;
+  }
+
+  .section__title {
+    border-bottom-color: #666;
+  }
+
+  /* Prevent page breaks inside elements */
+  .experience__item,
+  .project,
+  .education__item {
+    page-break-inside: avoid;
+  }
+
+  /* Allow page break before sections if needed */
+  .section {
+    page-break-before: auto;
+  }
+
+  /* Force page break for two-page layout */
+  .page-break {
+    page-break-before: always;
+  }
+}
+
+/* Two-page variant */
+.resume--two-page .experience__item {
+  margin-bottom: var(--spacing-xl);
+}
+
+.resume--two-page .experience__bullets {
+  margin-top: var(--spacing-md);
+}
+
+/* Compact variant for fitting on one page */
+.resume--compact {
+  padding: 0.4in 0.5in;
+}
+
+.resume--compact .section {
+  margin-bottom: var(--spacing-md);
+}
+
+.resume--compact .experience__item {
+  margin-bottom: var(--spacing-md);
+}
+
+.resume--compact .header {
+  margin-bottom: var(--spacing-md);
+}

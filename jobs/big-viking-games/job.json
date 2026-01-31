@@ -1,0 +1,31 @@
+{
+  "company": "Big Viking Games",
+  "companyDescription": "Big Viking Games is a mobile and social gaming studio known for free-to-play titles on Facebook and mobile platforms.",
+  "position": "Game Developer",
+  "location": "Toronto",
+  "duration": {
+    "start": "August 2014",
+    "end": "December 2015"
+  },
+  "description": [
+    "Contributed to the development of \"Tiny Kingdoms\" (JavaScript) and \"GalatronVS\" (Unity)",
+    "Developed internal tools, including animation and sound editors as well as Unity plugins",
+    "Collaborated with designers and artists to implement user-friendly UI/UX",
+    "Delivered responsive, high-performance gameplay experiences"
+  ],
+  "technologies": [
+    "JavaScript",
+    "Unity",
+    "Game development",
+    "Animation tools",
+    "Sound editors",
+    "Unity plugins",
+    "Mobile gaming",
+    "Web gaming"
+  ],
+  "achievements": [
+    "Delivered high-performance gameplay experiences",
+    "Created internal tools to enhance team productivity",
+    "Contributed to multiple mobile titles"
+  ]
+}

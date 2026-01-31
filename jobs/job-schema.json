@@ -1,0 +1,133 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Enhanced Job Information Schema",
+  "type": "object",
+  "properties": {
+    "company": {
+      "type": "object",
+      "properties": {
+        "name": {"type": "string"},
+        "industry": {"type": "string"},
+        "size": {"type": "string", "enum": ["startup", "small", "medium", "large", "enterprise"]},
+        "stage": {"type": "string", "enum": ["seed", "series-a", "series-b", "series-c", "public", "established"]},
+        "description": {"type": "string"},
+        "website": {"type": "string"},
+        "location": {"type": "string"}
+      }
+    },
+    "role": {
+      "type": "object",
+      "properties": {
+        "title": {"type": "string"},
+        "level": {"type": "string", "enum": ["junior", "mid", "senior", "staff", "principal", "lead", "manager", "director"]},
+        "type": {"type": "string", "enum": ["full-time", "part-time", "contract", "freelance", "internship"]},
+        "department": {"type": "string"},
+        "reportingTo": {"type": "string"},
+        "teamSize": {"type": "number"},
+        "directReports": {"type": "number"}
+      }
+    },
+    "duration": {
+      "type": "object",
+      "properties": {
+        "start": {"type": "string"},
+        "end": {"type": "string"},
+        "totalMonths": {"type": "number"}
+      }
+    },
+    "responsibilities": {
+      "type": "object",
+      "properties": {
+        "primary": {"type": "array", "items": {"type": "string"}},
+        "secondary": {"type": "array", "items": {"type": "string"}},
+        "leadership": {"type": "array", "items": {"type": "string"}},
+        "technical": {"type": "array", "items": {"type": "string"}},
+        "business": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "projects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "name": {"type": "string"},
+          "description": {"type": "string"},
+          "role": {"type": "string"},
+          "duration": {"type": "string"},
+          "technologies": {"type": "array", "items": {"type": "string"}},
+          "impact": {"type": "string"},
+          "teamSize": {"type": "number"},
+          "challenges": {"type": "array", "items": {"type": "string"}},
+          "solutions": {"type": "array", "items": {"type": "string"}}
+        }
+      }
+    },
+    "technologies": {
+      "type": "object",
+      "properties": {
+        "languages": {"type": "array", "items": {"type": "string"}},
+        "frameworks": {"type": "array", "items": {"type": "string"}},
+        "databases": {"type": "array", "items": {"type": "string"}},
+        "cloud": {"type": "array", "items": {"type": "string"}},
+        "devops": {"type": "array", "items": {"type": "string"}},
+        "tools": {"type": "array", "items": {"type": "string"}},
+        "mobile": {"type": "array", "items": {"type": "string"}},
+        "testing": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "achievements": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "description": {"type": "string"},
+          "impact": {"type": "string"},
+          "metrics": {"type": "string"},
+          "category": {"type": "string", "enum": ["performance", "quality", "cost", "time", "user", "business", "team"]},
+          "quantifiable": {"type": "boolean"}
+        }
+      }
+    },
+    "skills": {
+      "type": "object",
+      "properties": {
+        "developed": {"type": "array", "items": {"type": "string"}},
+        "strengthened": {"type": "array", "items": {"type": "string"}},
+        "applied": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "context": {
+      "type": "object",
+      "properties": {
+        "businessContext": {"type": "string"},
+        "challenges": {"type": "array", "items": {"type": "string"}},
+        "constraints": {"type": "array", "items": {"type": "string"}},
+        "stakeholders": {"type": "array", "items": {"type": "string"}},
+        "methodology": {"type": "string", "enum": ["agile", "scrum", "kanban", "waterfall", "hybrid"]},
+        "workStyle": {"type": "string", "enum": ["remote", "hybrid", "onsite"]}
+      }
+    },
+    "keywords": {
+      "type": "object",
+      "properties": {
+        "jobTitles": {"type": "array", "items": {"type": "string"}},
+        "domains": {"type": "array", "items": {"type": "string"}},
+        "buzzwords": {"type": "array", "items": {"type": "string"}},
+        "certifications": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "relevanceWeights": {
+      "type": "object",
+      "properties": {
+        "mobile": {"type": "number", "minimum": 0, "maximum": 1},
+        "web": {"type": "number", "minimum": 0, "maximum": 1},
+        "backend": {"type": "number", "minimum": 0, "maximum": 1},
+        "frontend": {"type": "number", "minimum": 0, "maximum": 1},
+        "fullstack": {"type": "number", "minimum": 0, "maximum": 1},
+        "leadership": {"type": "number", "minimum": 0, "maximum": 1},
+        "startup": {"type": "number", "minimum": 0, "maximum": 1},
+        "enterprise": {"type": "number", "minimum": 0, "maximum": 1}
+      }
+    }
+  }
+}

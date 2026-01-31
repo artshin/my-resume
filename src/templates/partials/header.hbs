@@ -1,0 +1,32 @@
+{{!-- Resume Header Partial --}}
+<header class="header">
+  <h1 class="header__name">{{profile.name}}</h1>
+  <div class="header__contact">
+    {{#if profile.location}}
+    <span class="header__contact-item">{{profile.location}}</span>
+    {{/if}}
+    {{#if profile.email}}
+    <span class="header__contact-item">
+      <a href="mailto:{{profile.email}}">{{profile.email}}</a>
+    </span>
+    {{/if}}
+    {{#if profile.phone}}
+    <span class="header__contact-item">{{profile.phone}}</span>
+    {{/if}}
+    {{#if profile.linkedin}}
+    <span class="header__contact-item">
+      <a href="{{profile.linkedin}}" target="_blank" rel="noopener">LinkedIn</a>
+    </span>
+    {{/if}}
+    {{#if profile.github}}
+    <span class="header__contact-item">
+      <a href="{{profile.github}}" target="_blank" rel="noopener">GitHub</a>
+    </span>
+    {{/if}}
+    {{#if profile.website}}
+    <span class="header__contact-item">
+      <a href="{{profile.website}}" target="_blank" rel="noopener">{{profile.websiteLabel}}</a>
+    </span>
+    {{/if}}
+  </div>
+</header>

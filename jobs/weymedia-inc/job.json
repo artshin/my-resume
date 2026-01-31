@@ -1,0 +1,32 @@
+{
+  "company": "Weymedia Inc",
+  "companyDescription": "Weymedia operates GeniusCash, a Canadian fintech app that rewards users with cashback on everyday purchases.",
+  "position": "Senior App Developer",
+  "location": "Remote",
+  "duration": {
+    "start": "May 2024",
+    "end": "October 2025"
+  },
+  "description": [
+    "Led development of GeniusCash iOS and GeniusCash Android using React Native + TypeScript",
+    "Designed and optimized Bitbucket CI/CD pipelines with self-hosted runners, ensuring zero-cost deployments and a smooth release process",
+    "Collaborated with cross-functional teams to deliver high-quality customer experiences, improving app usability and performance",
+    "Reviewed pull requests, provided mentorship, and drove best coding practices for a scalable codebase"
+  ],
+  "technologies": [
+    "React Native",
+    "TypeScript",
+    "Bitbucket Pipelines",
+    "CI/CD",
+    "Self-hosted runners",
+    "Expo",
+    "Plaid",
+    "Flinks"
+  ],
+  "achievements": [
+    "Zero-cost deployments through self-hosted runners",
+    "Delivered GeniusCash app supporting real-time cashback rewards",
+    "App has paid out over $4 million to Canadians",
+    "User base of nearly 100,000"
+  ]
+}

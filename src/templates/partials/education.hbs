@@ -1,0 +1,38 @@
+{{!-- Resume Education Partial --}}
+{{#if education}}
+<section class="section education">
+  <h2 class="section__title">Education</h2>
+
+  {{#each education}}
+  <div class="education__item">
+    <div>
+      <span class="education__degree">{{this.degree}}</span>
+      {{#if this.field}}
+      <span class="education__field"> in {{this.field}}</span>
+      {{/if}}
+      {{#if this.institution}}
+      <span class="education__institution"> - {{this.institution}}</span>
+      {{/if}}
+    </div>
+    {{#if this.year}}
+    <span class="education__year">{{this.year}}</span>
+    {{/if}}
+  </div>
+  {{/each}}
+</section>
+{{/if}}
+
+{{#if certifications}}
+<section class="section certifications">
+  <h2 class="section__title">Certifications</h2>
+  <ul class="certifications__list">
+    {{#each certifications}}
+    <li class="certifications__item">
+      <strong>{{this.name}}</strong>
+      {{#if this.issuer}} - {{this.issuer}}{{/if}}
+      {{#if this.year}} ({{this.year}}){{/if}}
+    </li>
+    {{/each}}
+  </ul>
+</section>
+{{/if}}

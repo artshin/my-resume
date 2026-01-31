@@ -1,0 +1,190 @@
+{
+  "company": {
+    "name": "Wonolo Inc",
+    "industry": "On-demand staffing platform",
+    "size": "medium",
+    "stage": "series-c",
+    "description": "On-demand staffing marketplace connecting businesses with pre-screened workers",
+    "website": "https://wonolo.com",
+    "location": "San Francisco, CA (Remote)"
+  },
+  "role": {
+    "title": "Senior Mobile Developer",
+    "level": "senior",
+    "type": "full-time",
+    "department": "Engineering",
+    "reportingTo": "Engineering Manager",
+    "teamSize": 8,
+    "directReports": 2
+  },
+  "duration": {
+    "start": "April 2022",
+    "end": "September 2023",
+    "totalMonths": 17
+  },
+  "responsibilities": {
+    "primary": [
+      "Lead React Native app architecture and development decisions",
+      "Drive JavaScript to TypeScript migration across entire mobile codebase",
+      "Optimize CI/CD pipelines for faster deployment cycles"
+    ],
+    "secondary": [
+      "Collaborate with product team on feature requirements",
+      "Participate in code reviews and architectural discussions",
+      "Support QA team with testing strategies"
+    ],
+    "leadership": [
+      "Mentor 2 junior mobile developers",
+      "Guide architecture decisions for mobile team",
+      "Lead technical planning meetings",
+      "Champion best practices across engineering org"
+    ],
+    "technical": [
+      "Implement automated testing workflows with Jest and React Testing Library",
+      "Configure BuildKite and GitHub Actions pipelines",
+      "Establish TypeScript coding standards and migration strategy",
+      "Optimize app performance and bundle sizes"
+    ],
+    "business": [
+      "Reduce deployment risk through improved CI/CD processes",
+      "Increase developer productivity through better tooling",
+      "Improve app stability reducing customer support tickets"
+    ]
+  },
+  "projects": [
+    {
+      "name": "JavaScript to TypeScript Migration",
+      "description": "Complete migration of React Native app from JavaScript to TypeScript",
+      "role": "Technical Lead",
+      "duration": "6 months",
+      "technologies": ["TypeScript", "React Native", "Jest", "ESLint"],
+      "impact": "Reduced runtime errors by 40% and improved developer experience",
+      "teamSize": 4,
+      "challenges": [
+        "Legacy code with no type definitions",
+        "Large codebase with complex state management",
+        "Maintaining app functionality during migration"
+      ],
+      "solutions": [
+        "Incremental migration strategy with gradual type adoption",
+        "Custom TypeScript configuration for React Native",
+        "Comprehensive testing strategy to catch regressions"
+      ]
+    },
+    {
+      "name": "CI/CD Pipeline Optimization",
+      "description": "Redesigned build and deployment pipeline for mobile apps",
+      "role": "Lead Developer",
+      "duration": "4 months",
+      "technologies": ["BuildKite", "GitHub Actions", "Fastlane", "Docker"],
+      "impact": "30% reduction in build times, 50% fewer failed deployments",
+      "teamSize": 3,
+      "challenges": [
+        "Inconsistent build environments",
+        "Long feedback cycles for developers",
+        "Manual deployment processes"
+      ],
+      "solutions": [
+        "Containerized build environments",
+        "Parallel test execution",
+        "Automated deployment with rollback capabilities"
+      ]
+    },
+    {
+      "name": "Automated Testing Infrastructure",
+      "description": "Implemented comprehensive testing strategy for mobile app",
+      "role": "Technical Lead",
+      "duration": "3 months",
+      "technologies": ["Jest", "React Testing Library", "Detox", "GitHub Actions"],
+      "impact": "20% reduction in post-release bugs, 60% faster QA cycles",
+      "teamSize": 2,
+      "challenges": [
+        "Limited test coverage in existing codebase",
+        "Flaky end-to-end tests",
+        "Integration with CI/CD pipeline"
+      ],
+      "solutions": [
+        "Test-driven development adoption",
+        "Stable test environment setup",
+        "Automated test reporting and notifications"
+      ]
+    }
+  ],
+  "technologies": {
+    "languages": ["TypeScript", "JavaScript", "Swift", "Kotlin"],
+    "frameworks": ["React Native", "React", "Jest"],
+    "databases": ["PostgreSQL", "Redis"],
+    "cloud": ["AWS", "Heroku"],
+    "devops": ["BuildKite", "GitHub Actions", "Docker", "Fastlane"],
+    "tools": ["Xcode", "Android Studio", "VS Code", "Flipper"],
+    "mobile": ["React Native", "iOS", "Android", "Expo"],
+    "testing": ["Jest", "React Testing Library", "Detox", "Unit Testing", "Integration Testing"]
+  },
+  "achievements": [
+    {
+      "description": "Reduced deployment time by 30% through CI/CD optimization",
+      "impact": "Faster time-to-market for new features",
+      "metrics": "From 45 minutes to 30 minutes average build time",
+      "category": "performance",
+      "quantifiable": true
+    },
+    {
+      "description": "Decreased post-release bugs by 20% with automated testing",
+      "impact": "Improved user experience and reduced support costs",
+      "metrics": "From 15 bugs/release to 12 bugs/release average",
+      "category": "quality",
+      "quantifiable": true
+    },
+    {
+      "description": "Successfully migrated 50,000+ lines of code to TypeScript",
+      "impact": "Improved code maintainability and developer productivity",
+      "metrics": "100% TypeScript adoption across mobile codebase",
+      "category": "technical",
+      "quantifiable": true
+    },
+    {
+      "description": "Mentored 2 junior developers to mid-level proficiency",
+      "impact": "Increased team capacity and knowledge sharing",
+      "metrics": "Both developers received promotions within 12 months",
+      "category": "team",
+      "quantifiable": true
+    }
+  ],
+  "skills": {
+    "developed": ["TypeScript migration strategies", "Mobile CI/CD optimization", "Team leadership"],
+    "strengthened": ["React Native architecture", "Automated testing", "Code review practices"],
+    "applied": ["Mobile development", "Performance optimization", "Agile methodologies"]
+  },
+  "context": {
+    "businessContext": "High-growth on-demand staffing platform serving enterprise clients with time-sensitive workforce needs",
+    "challenges": [
+      "Scaling mobile app for increased user base",
+      "Maintaining app stability during rapid feature development",
+      "Balancing technical debt with new feature delivery"
+    ],
+    "constraints": [
+      "Tight release schedules",
+      "Need for backwards compatibility",
+      "Limited testing resources"
+    ],
+    "stakeholders": ["Product team", "QA team", "Customer support", "Enterprise clients"],
+    "methodology": "agile",
+    "workStyle": "remote"
+  },
+  "keywords": {
+    "jobTitles": ["Senior Mobile Developer", "React Native Developer", "Mobile Engineer", "Frontend Developer"],
+    "domains": ["staffing", "marketplace", "on-demand", "enterprise"],
+    "buzzwords": ["scalable", "high-performance", "enterprise-grade", "automated", "optimized"],
+    "certifications": []
+  },
+  "relevanceWeights": {
+    "mobile": 1.0,
+    "web": 0.3,
+    "backend": 0.2,
+    "frontend": 0.8,
+    "fullstack": 0.6,
+    "leadership": 0.8,
+    "startup": 0.7,
+    "enterprise": 0.9
+  }
+}

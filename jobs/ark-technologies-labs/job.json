@@ -1,0 +1,31 @@
+{
+  "company": "Ark Technologies Labs LLC",
+  "companyDescription": "Ark Technologies Labs provides mobile wallet and API infrastructure to support the Bittensor network.",
+  "position": "Senior Software Engineer",
+  "location": "Remote",
+  "duration": {
+    "start": "October 2025",
+    "end": "Present"
+  },
+  "description": [
+    "Leading development of mobile wallet applications for iOS and Android using React Native and Expo",
+    "Building native modules and integrations with Rust-based blockchain infrastructure",
+    "Designing and implementing GraphQL APIs for wallet operations and network interactions",
+    "Collaborating with blockchain engineers to deliver secure cryptocurrency features"
+  ],
+  "technologies": [
+    "React Native",
+    "Expo",
+    "TypeScript",
+    "GraphQL",
+    "Rust",
+    "iOS",
+    "Android",
+    "Bittensor"
+  ],
+  "achievements": [
+    "Building mobile wallet infrastructure for Bittensor blockchain",
+    "Implementing secure key management and transaction signing",
+    "Developing cross-platform app with native performance"
+  ]
+}

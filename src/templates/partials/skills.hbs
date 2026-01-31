@@ -1,0 +1,27 @@
+{{!-- Resume Skills Partial --}}
+{{#if skills}}
+<section class="section skills">
+  <h2 class="section__title">Technical Skills</h2>
+
+  {{#if skills.grouped}}
+  {{!-- Grouped layout: skills organized by category --}}
+  {{#each skills.categories}}
+  <div class="skills__category">
+    <span class="skills__category-label">{{this.label}}:</span>
+    <span class="skills__category-items">{{this.items}}</span>
+  </div>
+  {{/each}}
+
+  {{else}}
+  {{!-- Inline layout: all skills in a single list --}}
+  <ul class="skills__list">
+    {{#each skills.highlighted}}
+    <li class="skills__item skills__item--highlighted">{{this}}</li>
+    {{/each}}
+    {{#each skills.additional}}
+    <li class="skills__item">{{this}}</li>
+    {{/each}}
+  </ul>
+  {{/if}}
+</section>
+{{/if}}

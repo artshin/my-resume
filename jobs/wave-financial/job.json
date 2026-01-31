@@ -1,0 +1,32 @@
+{
+  "company": "Wave Financial (WaveApps)",
+  "companyDescription": "Wave Financial provides free invoicing, accounting, and receipt scanning software for small businesses and freelancers.",
+  "position": "Mobile Developer",
+  "location": "Toronto",
+  "duration": {
+    "start": "May 2017",
+    "end": "February 2021"
+  },
+  "description": [
+    "Led development of Wave iOS and Wave Android, optimizing for performance and UX",
+    "Revamped and optimized CircleCI pipelines, improving CI/CD workflows",
+    "Collaborated with designers, backend teams, and product managers",
+    "Integrated payment flows and financial APIs"
+  ],
+  "technologies": [
+    "React Native",
+    "iOS",
+    "Android",
+    "CircleCI",
+    "Django",
+    "Redis",
+    "GraphQL",
+    "PostgreSQL",
+    "Payment APIs"
+  ],
+  "achievements": [
+    "Improved CI/CD workflows and reduced build failures",
+    "Enhanced app performance and user experience",
+    "Successful payment integration for small business platform"
+  ]
+}

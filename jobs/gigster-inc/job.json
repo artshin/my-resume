@@ -1,0 +1,29 @@
+{
+  "company": "Gigster Inc",
+  "companyDescription": "Gigster is a platform connecting enterprises with vetted software development teams to build custom applications.",
+  "position": "Freelance Developer",
+  "location": "Remote",
+  "duration": {
+    "start": "December 2015",
+    "end": "April 2017"
+  },
+  "description": [
+    "Delivered mobile projects using Swift, Objective-C, and React Native",
+    "Collaborated with cross-functional teams to design and deploy customer-focused applications",
+    "Worked closely with clients to understand feature requirements",
+    "Developed readable, maintainable code"
+  ],
+  "technologies": [
+    "Swift",
+    "Objective-C",
+    "React Native",
+    "iOS",
+    "Android",
+    "Mobile development"
+  ],
+  "achievements": [
+    "Successfully delivered multiple client projects",
+    "Built applications for fintech and lifestyle domains",
+    "Maintained high code quality standards"
+  ]
+}

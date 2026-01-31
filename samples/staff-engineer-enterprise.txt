@@ -1,0 +1,44 @@
+Staff Software Engineer - Mobile Platform
+
+Company: TechCorp (Fortune 500)
+
+Location: San Francisco, CA (Hybrid - 3 days in office)
+
+About the Role:
+We are seeking a Staff Software Engineer to lead our Mobile Platform team. You will be responsible for defining the technical direction of our mobile engineering efforts across iOS and Android platforms serving 50M+ users.
+
+Required Qualifications:
+- 8+ years of software engineering experience
+- 5+ years of mobile development (iOS or Android)
+- Deep expertise in Swift, Objective-C, Kotlin, or Java
+- Experience architecting large-scale mobile applications
+- Track record of leading technical initiatives across teams
+- Experience with mobile performance optimization
+- Strong understanding of mobile testing strategies (unit, integration, E2E)
+
+Technical Requirements:
+- UIKit and/or SwiftUI
+- Jetpack Compose and/or Android Views
+- GraphQL and REST API design
+- SQLite, Core Data, or Room
+- CI/CD systems (Jenkins, CircleCI, or similar)
+- Mobile analytics and monitoring tools
+
+Leadership Expectations:
+- Mentor and grow senior engineers
+- Drive technical strategy and roadmap
+- Collaborate with Staff+ engineers across the organization
+- Lead architectural decisions for mobile platform
+- Participate in hiring and team building
+
+Preferred:
+- Experience at scale (10M+ MAU)
+- Open source contributions
+- Conference speaking or technical writing
+- Experience with cross-platform solutions (React Native, Flutter)
+
+Benefits:
+- Competitive base salary $200-280K
+- Annual bonus and RSUs
+- Comprehensive health benefits
+- 401(k) matching

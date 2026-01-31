@@ -1,0 +1,23 @@
+{{!-- Resume Projects Partial (Optional) --}}
+{{#if projects}}
+<section class="section projects">
+  <h2 class="section__title">Key Projects</h2>
+
+  {{#each projects}}
+  <article class="project">
+    <div class="project__header">
+      <span class="project__name">{{this.name}}</span>
+      {{#if this.technologies}}
+      <span class="project__tech">{{this.technologies}}</span>
+      {{/if}}
+    </div>
+    {{#if this.description}}
+    <p class="project__description">{{this.description}}</p>
+    {{/if}}
+    {{#if this.impact}}
+    <p class="project__impact">{{this.impact}}</p>
+    {{/if}}
+  </article>
+  {{/each}}
+</section>
+{{/if}}
